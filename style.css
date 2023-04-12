@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    height: 100vh 
+}
+.top-section, .footer-container {
+    background-color: #1F2937;
+    padding-left: 60px;
+    padding-right: 60px;
+    color: white;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.right {
+    width: 250px
+}
+.img {
+    width: 200px;
+}
+.sign-up {
+    display: flex;
+}
+.title-container {
+    display: flex;
+    justify-content: center;
+}
+.items-container {
+    display: flex;
+    justify-content: space-between;
+}
+.nursing, .occupational-therapy, .physical-therapy, .speech-therapy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
