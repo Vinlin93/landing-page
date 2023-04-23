@@ -1,13 +1,15 @@
 body {
+    height: 100vh;
     margin: 0;
-    height: 100vh 
 }
 .top-section, .footer-container {
     background-color: #1F2937;
     padding-left: 120px;
     padding-right: 120px;
-    padding-bottom: 60px;
     color: white;
+}
+.top-section {
+    padding-bottom: 60px;
 }
 .header {
     display: flex;
@@ -35,7 +37,7 @@ body {
 ul {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 15px;
     list-style: none;
 }
 a{
@@ -136,8 +138,8 @@ button {
     margin-top: 0;
 }
 .footer-container {
-    min-height: 2vh;
     display: flex;
+    min-height: 80px;
     justify-content: center;
     align-items: center;
 }
